@@ -30,7 +30,12 @@ import {ImageFilter} from "gl-react-imagefilter";
 ```
 
 ```html
-<Surface width={300} height={300}>
-   <ImageFilter sepia={3} blur={2}>...</ImageFilter>
+<Surface width={300} height={200}>
+   <ImageFilter sepia={3} blur={2}>
+    <GLImage
+      source="https://unsplash.it/200/300"
+      imageSize={{ width: 300, height: 200 }}
+      resizeMode="cover" />
+   </ImageFilter>
 </Surface>
 ```
