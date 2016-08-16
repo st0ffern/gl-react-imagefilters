@@ -10,15 +10,17 @@
   },
   "author": "stoffern",
   "license": "MIT",
-  "peerDependencies": {
-    "gl-react": "^2.2.5",
+  "dependencies":{
     "gl-react-blur": "^1.3.0",
     "gl-react-contrast-saturation-brightness": "^1.1.0",
     "gl-react-hue-rotate": "^1.1.0",
     "gl-react-negative": "^1.1.0",
     "gl-react-sepia": "^1.0.3",
     "gl-react-sharpen": "^1.0.3",
-    "gl-react-temperature": "^1.0.2",
+    "gl-react-temperature": "^1.0.2"
+  },
+  "peerDependencies": {
+    "gl-react": "^2.2.5",
     "react": "^15.2.1"
   },
   "devDependencies": {
