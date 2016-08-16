@@ -18,9 +18,9 @@ Image filters for gl-react and gl-react-native
 ## Usage Examples
 
 ```js
-var ImageFilter = require("gl-react-imagefilter").ImageFilter;
+var ImageFilter = require("gl-react-imagefilters").ImageFilter;
 // or
-import {ImageFilter} from "gl-react-imagefilter";
+import {ImageFilter} from "gl-react-imagefilters";
 ```
 
 ```html
