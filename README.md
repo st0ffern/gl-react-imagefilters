@@ -1,4 +1,6 @@
 # gl-react-imagefilters ![](https://img.shields.io/npm/v/gl-react-imagefilters.svg) ![](https://img.shields.io/badge/gl--react->= 2.1-05F561.svg) ![](https://img.shields.io/badge/gl--react-dom%20%7C%20native-f90.svg)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stoffern/gl-react-imagefilters.svg)](https://greenkeeper.io/)
 Image filters for gl-react and gl-react-native
 
 ## Props
