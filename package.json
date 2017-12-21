@@ -29,7 +29,7 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-1": "^6.5.0",
     "cz-conventional-changelog": "^2.0.0",
-    "semantic-release": "^8.0.3"
+    "semantic-release": "^11.0.2"
   },
   "config": {
     "commitizen": {
