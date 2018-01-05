@@ -17,7 +17,7 @@
     "gl-react-negative": "^1.1.0",
     "gl-react-sepia": "^1.0.3",
     "gl-react-sharpen": "^2.0.0",
-    "gl-react-temperature": "^2.0.0"
+    "gl-react-temperature": "2.0.0"
   },
   "peerDependencies": {
     "gl-react": "^2.2.5",
