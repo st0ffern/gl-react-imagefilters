@@ -1,12 +1,13 @@
 {
   "name": "gl-react-imagefilters",
-  "version": "0.0.0-semantically-release",
+  "version": "0.0.0-development",
   "description": "Image filters for gl-react and gl-react-native",
   "main": "lib/index.js",
   "scripts": {
     "compile": "rm -rf lib/ && babel --presets es2015,stage-1,react --source-maps -d lib src",
     "prepublish": "npm run compile",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "author": "stoffern",
   "license": "MIT",
@@ -30,7 +31,8 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-1": "^6.5.0",
     "cz-conventional-changelog": "^2.0.0",
-    "semantic-release": "^8.0.3"
+    "semantic-release": "^12.2.2",
+    "travis-deploy-once": "^4.3.1"
   },
   "config": {
     "commitizen": {
